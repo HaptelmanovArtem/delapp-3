@@ -1,7 +1,6 @@
 {
   "name": "my-app1",
   "version": "0.1.0",
-  "homepage": "https://haptelmanovartem.github.io/deliveryapp-2",
   "private": true,
   "devDependencies": {
     "gh-pages": "^2.1.1"
