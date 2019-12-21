@@ -1,0 +1,99 @@
+.oreders-wrapper{
+    margin-top: 25px;
+    background: azure;
+}
+
+.clients {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.clients li{
+    margin: 25px;
+}
+
+a{
+    margin: 15px;
+}
+
+.isDone {
+    background-color: rgba(14, 158, 50, 0.529);
+}
+
+.isNotDone{
+    background-color: rgba(158, 14, 14, 0.529);
+}
+
+.submenu-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.allOrders{
+    border: none;
+    background: none;
+    cursor: pointer;
+    border: 1px solid rgba(11, 233, 233, 0.26);
+    background-color: rgba(11, 233, 233, 0.26);
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.699);
+    transition: 0.3s ease all;
+}
+
+.allOrders:hover{
+    color: black;
+    border: 1px solid rgb(11,233,233);
+    background: rgb(11,233,233);
+}
+
+.submenu-wrapper form input{
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.searchQueryField{
+    border: 1px solid azure;
+    background: rgba(11,233,233,0.23);
+    padding: 6px;
+    width: 200px;
+    border-radius: 20px;
+    transition: .1s ease all;
+}
+
+.searchQueryField:focus{
+    background: rgba(11,233,233,0.50);
+}
+
+.Submit-button{
+    border: none;
+    color: rgba(0, 0, 0, 0.363);
+    background: none;
+    cursor: pointer;
+    position: relative;
+    right: 35px;
+    transition:0.2s ease all;
+}
+
+.Submit-button:hover{
+    color:black;
+    transform: scale(1.1);
+}
+
+.errortext{
+    color: red;
+    display: block;
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-left:10px;
+    position: absolute;
+}

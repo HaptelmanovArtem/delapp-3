@@ -1,0 +1,59 @@
+.header-wrapper{
+    margin-top: 25px;
+    background-color: azure;
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    list-style: none;
+}
+
+.header-list li{
+    flex-direction: row;
+}
+
+.header-list li a{
+    flex-shrink: 1;
+    flex-grow: 1;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.699);
+    font-family: "Roboto", sans-serif;
+    transition: 0.3 ease all;
+    align-items:center;
+}
+
+.header-list li a:hover{
+    color: black;
+    
+}
+
+.header-wrapper img{
+    max-width: 100%;
+    height: 80px;    
+}
+
+.logo{
+    flex-grow: 1;
+    flex-shrink: 0;
+    max-width: 80px;
+}
+
+#signinlink{
+    display: block;
+    font-size: 16px;
+}
+
+#signuplink{
+    display: block;
+    font-size: 12px;
+}
+
+.link{
+    display: flex;
+}

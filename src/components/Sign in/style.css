@@ -1,0 +1,63 @@
+.main-wrapper{
+    margin-top: 15px;
+    background: azure;
+    height: 75vh;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    flex-direction: column;
+}
+
+input{
+    margin: 5px;
+    width: 250px;
+    padding: 5px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s ease all;
+    border-radius: 2px;
+}
+
+input:hover{
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.534) 1px 1px;
+}
+
+input:focus{
+    border: 1px solid rgba(255, 0, 0, 0.349);
+}
+
+.signin{
+    border: none;
+    background: none;
+    border: 1px solid rgba(11, 233, 233, 0.26);
+    background-color: rgba(11, 233, 233, 0.26);
+    padding: 5px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.699);
+    transition: 0.3s ease all;
+}
+
+.signin:hover{
+    cursor: pointer;
+    color: black;
+    border: 1px solid rgb(11,233,233);
+    background: rgb(11,233,233);
+}
+
+#login-field{
+
+}
+
+#password-field{
+
+}
